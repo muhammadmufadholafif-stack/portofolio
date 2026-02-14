@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Muhammad Mufadhol Afif</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="loader">
+            <div class="loader-circle"></div>
+            <p class="loader-text">fanskey</p>
+        </div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" id="scrollToTop">
+        <span>↑</span>
+    </button>
+
+    <!-- Dark/Light Mode Toggle -->
+    <button class="theme-toggle" id="themeToggle">
+        <span class="theme-icon">🌙</span>
+    </button>
+
+    <div class="container">
+        <nav>
+            <div class="logo">fanskey</div>
+            <ul class="nav-links">
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#skills">Keahlian</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#certificates">Sertifikat</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <span class="hero-label">[ PROFESIONAL IT ]</span>
+                <h1>
+                    Muhammad Mufadhol Afif
+                </h1>
+                <p style="color: var(--accent-primary); font-size: 1.2rem; margin-bottom: 1.5rem; font-weight: 600;">aka fanskey</p>
+                <p class="hero-description">
+                    Web Developer dengan pengalaman di Cloud Engineering (AWS) dan sedang mendalami Cyber Security. 
+                    Fokus pada development yang aman, infrastruktur yang robust, dan keamanan sistem yang komprehensif.
+                </p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">Lihat Project</a>
+                    <a href="#contact" class="btn btn-secondary">Hubungi Saya</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <div class="section-header reveal">
+                <span class="section-label">[ KEAHLIAN ]</span>
+                <h2>Kemampuan Teknis</h2>
+                <p class="section-description">
+                    Kombinasi skills development, cloud infrastructure, dan security mindset untuk solusi IT yang komprehensif.
+                </p>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-card reveal">
+                    <div class="skill-icon">⚡</div>
+                    <h3>Web Development</h3>
+                    <span class="skill-level">TINGKAT DASAR</span>
+                    <p style="color: var(--text-secondary); margin-top: 1rem;">
+                        Fondasi kuat dalam pengembangan web modern dengan fokus pada clean code dan best practices.
+                    </p>
+                    <ul class="skill-list">
+                        <li>HTML5, CSS3, JavaScript</li>
+                        <li>Responsive Design</li>
+                        <li>React.js Fundamentals</li>
+                        <li>RESTful APIs</li>
+                        <li>Git & Version Control</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card reveal">
+                    <div class="skill-icon">☁️</div>
+                    <h3>Cloud Engineering (AWS)</h3>
+                    <span class="skill-level">TINGKAT MENENGAH</span>
+                    <p style="color: var(--text-secondary); margin-top: 1rem;">
+                        Pengalaman menengah dalam merancang dan mengelola infrastruktur cloud yang scalable di AWS.
+                    </p>
+                    <ul class="skill-list">
+                        <li>EC2, S3, RDS</li>
+                        <li>VPC & Networking</li>
+                        <li>IAM & Security Groups</li>
+                        <li>CloudWatch Monitoring</li>
+                        <li>Lambda & Serverless</li>
+                        <li>Infrastructure as Code</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card reveal">
+                    <div class="skill-icon">🛡️</div>
+                    <h3>Cyber Security</h3>
+                    <span class="skill-level">FASE PEMBELAJARAN</span>
+                    <p style="color: var(--text-secondary); margin-top: 1rem;">
+                        Fokus belajar mendalam tentang keamanan sistem, penetration testing, dan secure development.
+                    </p>
+                    <ul class="skill-list">
+                        <li>Security Fundamentals</li>
+                        <li>Network Security</li>
+                        <li>OWASP Top 10</li>
+                        <li>Penetration Testing Basics</li>
+                        <li>Secure Coding Practices</li>
+                        <li>Security Assessment</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <div class="section-header reveal">
+                <span class="section-label">[ PORTOFOLIO ]</span>
+                <h2>Project Unggulan</h2>
+                <p class="section-description">
+                    Project-project yang telah saya kembangkan untuk mendemonstrasikan kemampuan web development dan cloud infrastructure.
+                </p>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card reveal">
+                    <div class="project-image">🎨</div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">E-Commerce</span>
+                            <span class="tag">Web Design</span>
+                            <span class="tag">Canva</span>
+                        </div>
+                        <h3>Template Canva Marketplace</h3>
+                        <p class="project-description">
+                            Website marketplace untuk menjual template desain Canva. Dilengkapi dengan sistem katalog produk, 
+                            filter kategori, preview template, dan integrasi payment gateway untuk transaksi yang aman.
+                        </p>
+                        <a href="#" class="btn btn-secondary">Lihat Detail →</a>
+                    </div>
+                </div>
+
+                <div class="project-card reveal">
+                    <div class="project-image">🌤️</div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">API Integration</span>
+                            <span class="tag">Web App</span>
+                            <span class="tag">OpenMeteo</span>
+                        </div>
+                        <h3>Weather Forecast App</h3>
+                        <p class="project-description">
+                            Aplikasi web untuk cek prakiraan cuaca menggunakan OpenMeteo API. Menampilkan data cuaca real-time, 
+                            forecast 7 hari ke depan, temperature, humidity, wind speed, dan kondisi cuaca detail dengan UI yang clean dan responsive.
+                        </p>
+                        <a href="#" class="btn btn-secondary">Lihat Detail →</a>
+                    </div>
+                </div>
+
+                <div class="project-card reveal">
+                    <div class="project-image">💼</div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Portfolio</span>
+                            <span class="tag">Web Design</span>
+                            <span class="tag">Responsive</span>
+                        </div>
+                        <h3>Website Portfolio Personal</h3>
+                        <p class="project-description">
+                            Portfolio website modern dan minimalis untuk menampilkan skills, projects, dan sertifikat. 
+                            Dibangun dengan dark theme, responsive design, dan smooth animations untuk user experience yang optimal.
+                        </p>
+                        <a href="#" class="btn btn-secondary">Lihat Detail →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certificates Section -->
+        <section id="certificates">
+            <div class="section-header reveal">
+                <span class="section-label">[ SERTIFIKASI ]</span>
+                <h2>Sertifikat & Pencapaian</h2>
+                <p class="section-description">
+                    Sertifikasi dan pencapaian yang mendukung kompetensi di bidang IT, cloud computing, dan security.
+                </p>
+            </div>
+
+            <div class="certificates-grid">
+                <div class="certificate-card reveal">
+                    <div class="certificate-icon">☁️</div>
+                    <h3>AWS Certified Cloud Practitioner</h3>
+                    <p class="certificate-issuer">Amazon Web Services</p>
+                    <p class="certificate-date">Diterbitkan: Jan 2024</p>
+                    <a href="#" class="certificate-link">Lihat Sertifikat →</a>
+                </div>
+
+                <div class="certificate-card reveal">
+                    <div class="certificate-icon">🎓</div>
+                    <h3>Web Development Bootcamp</h3>
+                    <p class="certificate-issuer">Nama Platform Anda</p>
+                    <p class="certificate-date">Selesai: Des 2023</p>
+                    <a href="#" class="certificate-link">Lihat Sertifikat →</a>
+                </div>
+
+                <div class="certificate-card reveal">
+                    <div class="certificate-icon">🔒</div>
+                    <h3>Cyber Security Fundamentals</h3>
+                    <p class="certificate-issuer">Nama Platform Anda</p>
+                    <p class="certificate-date">Selesai: Nov 2023</p>
+                    <a href="#" class="certificate-link">Lihat Sertifikat →</a>
+                </div>
+
+                <div class="certificate-card reveal">
+                    <div class="certificate-icon">💻</div>
+                    <h3>JavaScript Advanced Concepts</h3>
+                    <p class="certificate-issuer">Nama Platform Anda</p>
+                    <p class="certificate-date">Selesai: Okt 2023</p>
+                    <a href="#" class="certificate-link">Lihat Sertifikat →</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="section-header reveal">
+                <span class="section-label">[ HUBUNGI SAYA ]</span>
+                <h2>Mari Terhubung</h2>
+                <p class="section-description">
+                    Tertarik untuk berkolaborasi atau punya project? Jangan ragu untuk menghubungi saya!
+                </p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>fanskey@example.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">💼</div>
+                        <div class="contact-details">
+                            <h4>LinkedIn</h4>
+                            <p>linkedin.com/in/fanskey</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">💻</div>
+                        <div class="contact-details">
+                            <h4>GitHub</h4>
+                            <p>github.com/fanskey</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form reveal">
+                    <div class="form-group">
+                        <label for="name">Nama</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Pesan</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Muhammad Mufadhol Afif (fanskey). Dibangun dengan passion untuk teknologi & keamanan.</p>
+            <div class="social-links">
+                <a href="https://github.com/muhammadmufadholafif-stack" title="GitHub">💻</a>
+                <a href="Coming.html" title="LinkedIn">💼</a>
+                <a href="Coming.html" title="X">🐦</a>
+                <a href="mailto:mufadholafif@gmail.com" title="Email">📧</a>
+                <a href="https://www.instagram.com/fanskeyyy" title="Instagram">📸</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- EmailJS Library -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    
+    <!-- Main Script -->
+    <script src="script.js"></script>
+</body>
+</html>
